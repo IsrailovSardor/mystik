@@ -11,12 +11,10 @@ i18next
     supportedLngs: ['en', 'ru'],
     fallbackLng: 'ru',
     debug: false,
-    // Options for language detector
     detection: {
       order: ['path', 'cookie', 'htmlTag'],
       caches: ['cookie'],
     },
-    // react: { useSuspense: false },
     backend: {
       loadPath: '/assets/locales/{{lng}}/translation.json',
     },

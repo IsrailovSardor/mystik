@@ -109,7 +109,6 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <img className="testimoials__img-mobile" src={right} alt="" />
       </div>
     </div>
   );

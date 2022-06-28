@@ -31,23 +31,23 @@ const Contact = () => {
           <p className="contact__text">Contacts</p>
         </div>
         <div className="contact__links">
-          <a href="#">
+          <a href="#" className="ins-hover">
             <InstagramIcon className="
             icons_link ins"/>
           </a>
-          <a href="">
+          <a href="" className="what-hover">
             <WhatsAppIcon className="
             icons_link what" />
           </a>
-          <a href="">
+          <a href="" className="tel-hover">
             <PhoneIcon className="
             icons_link tel"/>
           </a>
-          <a href="">
+          <a href="" className="twit-hover">
             <TwitterIcon className="
             icons_link twit"/>
           </a>
-          <a href="">
+          <a href="" className="fac-hover">
             <FacebookIcon className="
             icons_link fac"/>
           </a>
