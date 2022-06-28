@@ -1,0 +1,175 @@
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+
+    .home__video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .home__container {
+        max-width: 1200px;
+        padding-top: 120px;
+        height: auto;
+        margin: auto;
+
+        .home__title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+
+            .home__svg {
+                max-width: 325px
+            }
+
+            .first-block__name {
+                text-align: center;
+                font-family: 'Noto Serif', sans-serif;
+                font-weight: 900;
+                color: #FFC367;
+                font-size: 70px;
+                letter-spacing: .04rem
+            }
+
+            .home-title__second-block {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 30px;
+
+                .second-block__descr {
+                    color: #9D9D9D;
+                    text-transform: capitalize;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 1em;
+                    text-align: center;
+                }
+            }
+
+            .third-block__whatsapp {
+                display: inline-block;
+                color: #000;
+                background: #FFC367;
+                font-family: 'Playfair Display', serif;
+                font-weight: 900;
+                font-size: 17px;
+                line-height: 1em;
+                padding: 10px 35px;
+                letter-spacing: .1em;
+                transition: 0.4s;
+                border: 1px solid #FFC367;
+            }
+
+            .third-block__whatsapp:hover {
+                cursor: pointer;
+                transition: 0.8s;
+                background: #b38746;
+                border: 1px solid #b38746;
+                transform: scale(0.98);
+            }
+        }
+
+        ;
+    }
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {
+    .home {
+        width: 100%;
+        height: 100vh;
+    
+        .home__video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            z-index: -1;
+        }
+    
+        .home__container {
+            max-width: 1200px;
+            padding-top: 120px;
+            height: auto;
+            margin: auto;
+    
+            .home__title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+    
+                .home__svg {
+                    max-width: 250px
+                }
+    
+                .first-block__name {
+                    text-align: center;
+                    font-family: 'Noto Serif', sans-serif;
+                    font-size: 32px !important;
+                    font-weight: 900;
+                    color: #FFC367;
+                    font-size: 70px;
+                    letter-spacing: .04rem
+                }
+    
+                .home-title__second-block {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    gap: 20px;
+    
+                    .second-block__descr {
+                        color: #9D9D9D;
+                        text-transform: capitalize;
+                        font-family: 'Playfair Display', serif;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 1em;
+                        text-align: center;
+                    }
+                }
+    
+                .third-block__whatsapp {
+                    display: inline-block;
+                    color: #000;
+                    background: #FFC367;
+                    font-family: 'Playfair Display', serif;
+                    font-weight: 900;
+                    font-size: 17px;
+                    line-height: 1em;
+                    padding: 10px 35px;
+                    letter-spacing: .1em;
+                    transition: 0.4s;
+                    border: 1px solid #FFC367;
+                }
+    
+                .third-block__whatsapp:hover {
+                    cursor: pointer;
+                    transition: 0.8s;
+                    background: #b38746;
+                    border: 1px solid #b38746;
+                    transform: scale(0.98);
+                }
+            }
+    
+            ;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {}

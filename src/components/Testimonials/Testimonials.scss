@@ -1,0 +1,351 @@
+// content: "‘‘";
+//     font-size: 4.0625rem;
+//     line-height: 0px;
+//     margin-top: 0.8rem;
+//     margin-bottom: 1rem;
+// @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700;800&display=swap');
+.testimonials {
+    width: 100%;
+    height: auto;
+    padding: 50px 15px;
+    opacity: 1;
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1627209124_33-kartinkin-com-p-mrachnii-fon-dlya-teksta-krasivo-34.jpg);
+    // background-image: url(../../assets/images/fon_test.webp);
+    background-size: cover;
+
+    .testimonials__container {
+        max-width: 1200px;
+        margin: auto;
+        height: auto;
+
+        .testimonials__text {
+            width: 100%;
+            margin-bottom: 25px;
+            text-align: center;
+
+            .testimonials__title {
+                margin-top: 20px;
+                font-family: 'Noto Serif', sans-serif;
+                font-weight: 900;
+                color: #FFC367;
+                font-size: 40px;
+                letter-spacing: .04rem;
+            }
+        }
+        .testimonials__blocks {
+            width: 100%;
+            gap: 48px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            .testimonials__block {
+                width: 368px;
+                height: auto;
+                .testimonials__text {
+                    padding: 40px;
+                    width: 100%;
+                    height: 345px;
+                    border: 1px solid #9d9d9d;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+                    justify-content: center;
+                    &:hover {
+                        border: 1px solid #FFC367;
+                    }
+                    .testimonials__kav {
+                        font-size: 80px;
+                        right: 45%;
+                        top: 0px;
+                        position: absolute;
+                        color: #FFC367;
+                        font-family: 'Pacifico', cursive;
+                    }
+                    
+                    .testimonials__descr {
+                        width: 100%;
+                        color: #9D9D9D;
+                        text-transform: capitalize;
+                        font-family: 'Proza Libre', sans-serif;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+                .testimonials__user {
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    // background-color: red;
+                    position: relative;
+                    gap: 10px;
+                    img {
+                        position: absolute;
+                        top: -30px;
+                        border-radius: 50%;
+                        background-color: white;
+                        width: 65px;
+                        height: 65px;
+                    }
+                    .testimonials__user-title {
+                        font-size: 20px;
+                        color: #FFC367;
+                        text-transform: capitalize;
+                        font-family: 'Proza Libre', sans-serif;
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                    .testimonials__user-city {
+                        font-size: 16px;
+                        color: #9d9d9d;
+                        text-transform: capitalize;
+                        font-family: 'Proza Libre', sans-serif;
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+        .testimoials__img-mobile {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:830px)  {
+    .testimonials {
+        width: 100%;
+        height: auto;
+        padding: 50px 15px;
+        background-image: url(../../assets/images/fon_test.webp);
+        background-size: cover;
+    
+        .testimonials__container {
+            max-width: 1200px;
+            margin: auto;
+            height: auto;
+            position: relative;
+            .testimoials__img-mobile {
+                display: block;
+                width: 50px;
+                height: auto;
+                border-radius: 50%;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+            .testimonials__text {
+                width: 100%;
+                margin-bottom: 25px;
+                text-align: center;
+    
+                .testimonials__title {
+                    margin-top: 20px;
+                    font-family: 'Noto Serif', sans-serif;
+                    font-weight: 900;
+                    color: #FFC367;
+                    font-size: 40px;
+                    letter-spacing: .04rem;
+                }
+            }
+            .testimonials__blocks {
+                width: 100%;
+                gap: 48px;
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: nowrap !important;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                &::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                }
+
+                .testimonials__block {
+                    min-width: 368px;
+                    height: auto;
+                    
+                    .testimonials__text {
+                        padding: 40px;
+                        width: 100%;
+                        height: 345px;
+                        border: 1px solid #9d9d9d;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        justify-content: center;
+                        .testimonials__kav {
+                            font-size: 80px;
+                            right: 45%;
+                            top: 0px;
+                            position: absolute;
+                            color: #FFC367;
+                            font-family: 'Pacifico', cursive;
+                        }
+                        
+                        .testimonials__descr {
+                            width: 100%;
+                            color: #9D9D9D;
+                            text-transform: capitalize;
+                            font-family: 'Proza Libre', sans-serif;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                    }
+                    .testimonials__user {
+                        width: 100%;
+                        height: 100px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        // background-color: red;
+                        position: relative;
+                        gap: 10px;
+                        img {
+                            position: absolute;
+                            top: -30px;
+                            border-radius: 50%;
+                            background-color: white;
+                            width: 65px;
+                            height: 65px;
+                        }
+                        .testimonials__user-title {
+                            font-size: 20px;
+                            color: #FFC367;
+                            text-transform: capitalize;
+                            font-family: 'Proza Libre', sans-serif;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+                        .testimonials__user-city {
+                            font-size: 16px;
+                            color: #9d9d9d;
+                            text-transform: capitalize;
+                            font-family: 'Proza Libre', sans-serif;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media (max-width: 400px) {
+    .testimonials {
+        width: 100%;
+        height: auto;
+        padding: 50px 15px;
+        background-image: url(../../assets/images/fon_test.webp);
+        background-size: cover;
+    
+        .testimonials__container {
+            max-width: 1200px;
+            margin: auto;
+            height: auto;
+    
+            .testimonials__text {
+                width: 100%;
+                margin-bottom: 25px;
+                text-align: center;
+    
+                svg {
+                    width: 100%;
+                }
+                .testimonials__title {
+                    margin-top: 20px;
+                    font-family: 'Noto Serif', sans-serif;
+                    font-weight: 900;
+                    color: #FFC367;
+                    font-size: 40px;
+                    letter-spacing: .04rem;
+                }
+            }
+            .testimonials__blocks {
+                width: 100%;
+                gap: 48px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                .testimonials__block {
+                    min-width: 100%;
+                    height: auto;
+                    .testimonials__text {
+                        padding: 20px;
+                        width: 100%;
+                        height: 345px;
+                        border: 1px solid #9d9d9d;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        justify-content: center;
+                        .testimonials__kav {
+                            font-size: 60px;
+                            right: 45%;
+                            top: 0px;
+                            position: absolute;
+                            color: #FFC367;
+                            font-family: 'Pacifico', cursive;
+                        }
+                        
+                        .testimonials__descr {
+                            width: 100%;
+                            color: #9D9D9D;
+                            text-transform: capitalize;
+                            font-family: 'Proza Libre', sans-serif;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                    }
+                    .testimonials__user {
+                        width: 100%;
+                        height: 80px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        position: relative;
+                        gap: 10px;
+                        img {
+                            position: absolute;
+                            top: -60px;
+                            border-radius: 50%;
+                            background-color: white;
+                            width: 65px;
+                            height: 65px;
+                        }
+                        .testimonials__user-title {
+                            font-size: 20px;
+                            color: #FFC367;
+                            text-transform: capitalize;
+                            font-family: 'Proza Libre', sans-serif;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+                        .testimonials__user-city {
+                            font-size: 16px;
+                            color: #9d9d9d;
+                            text-transform: capitalize;
+                            font-family: 'Proza Libre', sans-serif;
+                            font-weight: 600;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,78 @@
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 100px 15px;
+    background-image: url("../../assets/images/fon_test.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .contact__container {
+        max-width: 1200px;
+        margin: auto;
+
+        .contact__title {
+            width: 100%;
+            text-align: center;
+
+            .contact__text {
+                font-family: 'Noto Serif', sans-serif;
+                font-weight: 900;
+                color: #FFC367;
+                font-size: 40px;
+                letter-spacing: .04rem;
+            }
+        }
+
+        .contact__links {
+            width: 100%;
+            gap: 10px;
+            display: flex;
+            margin-top: 25px;
+
+            a {
+                display: flex;
+                padding: 20px 0;
+                justify-content: center;
+                width: 20%;
+                border: 1px solid #9d9d9d;
+                text-decoration: none;
+
+                .icons_link {
+                    font-size: 30px;
+                    transition: 0.4s;
+                    color: #FFC367;
+                }
+
+                .ins:hover {
+                    transform: scale(1.2);
+                    transition: 0.4s;
+                    color: #E1306C;
+                }
+
+                .what:hover {
+                    transition: 0.4s;
+                    transform: scale(1.2);
+                    color: #25D366;
+                }
+
+                .tel:hover {
+                    transition: 0.4s;
+                    transform: scale(1.2);
+                    color: #ffffff;
+                }
+
+                .twit:hover {
+                    transition: 0.4s;
+                    transform: scale(1.2);
+                    color: #1DA1F2;
+                }
+
+                .fac:hover {
+                    transition: 0.4s;
+                    transform: scale(1.2);
+                    color: #4267B2;
+                }
+            }
+        }
+    }
+}
