@@ -138,7 +138,9 @@
                 width: 100%;
                 margin-bottom: 25px;
                 text-align: center;
-    
+                &:hover {
+                    transform: scale(1.0);
+                }
                 .testimonials__title {
                     margin-top: 20px;
                     font-family: 'Noto Serif', sans-serif;
@@ -175,6 +177,9 @@
                         align-items: center;
                         position: relative;
                         justify-content: center;
+                        &:hover {
+                            transform: scale(1);
+                        }
                         .testimonials__kav {
                             font-size: 80px;
                             right: 45%;
